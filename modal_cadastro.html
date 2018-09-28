@@ -1,0 +1,88 @@
+<div id="cadastro" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Cadastre-se</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body badge-dark">
+				<form onsubmit="return false">
+					<div class="form-group">
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<div class="input-group-text" id="btnGroupAddon"><i class="fas fa-user fa-fw"></i></div>
+							</div>
+							<input style="border-bottom-right-radius: 100px;" class="form-control mr-1" type="text" id="nome" placeholder="Nome" required/>
+							<div class="input-group-prepend">
+								<div class="input-group-text" id="btnGroupAddon"><i class="fas fa-user fa-fw"></i></div>
+							</div>
+							<input style="border-bottom-right-radius: 100px;" class="form-control" type="text" id="sobrenome" placeholder="Sobrenome" required/>
+						</div>
+					</div>
+
+					<!-- <div class="form-group">
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<div class="input-group-text" id="btnGroupAddon"><i class="fas fa-credit-card fa-fw"></i></div>
+							</div>
+							<input style="border-bottom-right-radius: 100px;" class="form-control money" name="cartao" placeholder="Número do cartão" required/>
+						</div>
+					</div> -->
+
+					<div class="form-group">
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<div class="input-group-text" id="btnGroupAddon"><i class="fas fa-envelope fa-fw"></i></div>
+							</div>
+							<input style="border-bottom-right-radius: 100px;" class="form-control mr-1" type="email" id="email_cad" name="email_cad" placeholder="Email" onblur="validarEmailCad()" required/>
+							<div id="invalid_cad_email" class="invalid-feedback"></div>
+							<!-- <div class="input-group-prepend">
+								<div class="input-group-text" id="btnGroupAddon"><i class="fas fa-list-ol fa-fw"></i></div>
+							</div>
+							<input style="border-bottom-right-radius: 100px;" class="form-control cpf" id="cpf" placeholder="CPF" required/> -->
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<div class="input-group-text" id="btnGroupAddon"><i class="fas fa-key fa-fw"></i></div>
+							</div>
+							<input id="pass_cad" style="border-bottom-right-radius: 100px;" class="form-control mr-1" type="password" placeholder="Senha" onblur="validarSenhaCad()" required/>
+							<div class="input-group-prepend">
+								<div class="input-group-text" id="btnGroupAddon"><i class="fas fa-key fa-fw"></i></div>
+							</div>
+							<input id="pass_confirm" style="border-bottom-right-radius: 100px;" class="form-control" type="password" placeholder="Confirme a senha" onblur="confirmarSenha()" required/>
+							<div id="invalid_cad_senha" class="invalid-feedback"></div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<div class="input-group-text" id="btnGroupAddon">Gênero:</div>
+								<div class="card-body badge-light generos" style="border-bottom-right-radius: 100px; ">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<div class="input-group-text" id="btnGroupAddon">Plano:</div>
+								<div class="card-body badge-light planos" style="border-bottom-right-radius: 100px; ">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="alert" class="form-group">
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-success" onclick="cadastroUser()">Cadastrar</button>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,144 @@
+.other{
+	min-height: 42rem;
+    padding-top: 5.5rem;
+}
+#navbar{
+	top: -9px;
+	right: -35px;
+	left: -35px;
+
+}
+*{
+	padding: 0;
+	margin: 0;
+	vertical-align: baseline;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.clear{
+
+}
+/*
+	Player Video
+ */
+.player-video{
+	position: relative;
+	float: float;
+	width: 100%;
+	height: 603px;
+	background-color: #000;
+}
+.player-video video{
+	width: 100%;
+	height: 100%;
+}
+.video-preloader{
+	display: none;
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	left: 41%;
+	top: 26%;
+	background: url('/pay_for_view/assets/img/skin/preloader.gif') center center no-repeat;
+	background-size: auto 40%;
+}
+.player-video .video-controls{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 10%;
+	bottom: -3px;
+}
+.video-controls .video-btn{
+	display: block;
+	width: 5%;
+	height: 80%;
+	margin: 1px 1px;
+	cursor: pointer;
+}
+.video-controls .video-btn:hover{
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.video-controls .video-play{
+	background: url('/pay_for_view/assets/img/skin/play.png') center center no-repeat;
+	background-size: auto 50%;
+}
+.video-controls .video-volume{
+	background: url('/pay_for_view/assets/img/skin/volume-medium.png') center center no-repeat;
+	background-size: auto 50%;
+}
+.video-controls .video-screen{
+	background: url('/pay_for_view/assets/img/skin/full-screen.png') center center no-repeat;
+	background-size: auto 50%;
+}
+.video-progress-bar{
+	cursor: pointer;
+	width: 100%;
+	height: 10%;
+	background-color: rgba(40, 40, 40, 1.0);
+}
+.video-loader{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.video-progress{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	background-color: rgba(255, 47, 0, 0.5);
+}
+.video-controls .video-time{
+	display: block;
+	cursor: default;
+	color: #fff;
+	/* font-size: 0.9em; */
+	padding: 1% 1%;
+}
+.slider{
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 100px;
+	height: 20%;
+	margin: 1.5% 0;
+	cursor: pointer;
+	margin-right: 10px;
+	padding: 2px;
+	border-radius: 5px;
+}
+.slider-vol{
+	background-color: rgba(255, 47, 0, 0.5);
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+#playerVideo:-webkit-full-screen {
+  width: 100%;
+  height: 100%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+	margin-top: 100px;
+}
+#lbl{
+	margin-left: 15px;
+	margin-top: 6px;
+}
+.form-signin{
+	width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}

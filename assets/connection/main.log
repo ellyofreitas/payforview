@@ -1,0 +1,99 @@
+[2018-03-29 16:07:12] [INFO]: Inserindo novo genero: Ficção científica a tabela genero
+[2018-03-29 16:22:25] [ERROR]: Erro ao inserir: Ação a tabela genero
+[2018-03-29 16:23:14] [ERROR]: Erro ao inserir: Ação a tabela genero
+[2018-03-29 16:24:51] [ERROR]: Erro ao inserir: Ação a tabela genero
+[2018-03-29 16:25:32] [ERROR]: Erro ao inserir: Ação a tabela genero
+[2018-03-29 16:25:46] [ERROR]: Erro ao inserir: a a tabela genero
+[2018-03-29 16:26:19] [ERROR]: Erro ao inserir: a a tabela genero
+[2018-03-29 16:35:22] [INFO]: Foi inserido no banco em tabela genero(nome_genero: 'Terror')
+[2018-03-29 16:39:36] [INFO]: Foi inserido no banco em tabela produtora(nome_produtora: 'Sony Pictures')
+[2018-03-29 17:00:02] [INFO]: Dados inseridos no banco, em tabela filme(titulo: 'Jumanji: Bem-vindo à Selva', njunto: 'jumanjibemvindoaselva', ano: '2018', capa_image: 'http://localhost/bancodeimagens/imagem.jpg', background_capa: 'http://localhost/bancodeimagens/imagem.jpg', src_filme: 'Ex: http://localhost/bancodefilmes/filme.mp4', produtora_fk: '6')
+[2018-03-29 17:00:02] [INFO]: Dados inseridos no banco, em tabela genero_filme(nome_filme_fk: 'Jumanji: Bem-vindo à Selva', nome_genero_fk: 'Ação')
+[2018-03-29 17:00:02] [INFO]: Dados inseridos no banco, em tabela genero_filme(nome_filme_fk: 'Jumanji: Bem-vindo à Selva', nome_genero_fk: 'Fantasia')
+[2018-03-29 21:44:10] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Francisco', sobrenome: 'João', email: 'root@root', senha: 'root', cpf: '115.619.596-15', plano: '3')
+[2018-03-29 21:44:10] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '2', nome_genero_fk: 'Ação')
+[2018-03-29 21:44:10] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '2', nome_genero_fk: 'Aventura')
+[2018-03-29 21:44:10] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '2', nome_genero_fk: 'Comedia')
+[2018-03-29 21:44:10] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '2', nome_genero_fk: 'Drama')
+[2018-03-29 21:44:10] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '2', nome_genero_fk: 'Fantasia')
+[2018-03-29 21:44:10] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '2', nome_genero_fk: 'Romance')
+[2018-03-29 21:44:10] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '2', nome_genero_fk: 'Terror')
+[2018-03-29 21:44:10] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '3', nome_genero_fk: 'Ação')
+[2018-03-29 21:44:10] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '3', nome_genero_fk: 'Aventura')
+[2018-03-29 21:44:10] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '3', nome_genero_fk: 'Comedia')
+[2018-03-29 21:44:10] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '3', nome_genero_fk: 'Drama')
+[2018-03-29 21:44:10] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '3', nome_genero_fk: 'Fantasia')
+[2018-03-29 21:44:10] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '3', nome_genero_fk: 'Romance')
+[2018-03-29 21:44:10] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '3', nome_genero_fk: 'Terror')
+[2018-03-31 20:27:41] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Sr', sobrenome: 'João', email: 'srjoao@gmail.com', senha: 'root', cpf: '149.149.149-71', plano: '2')
+[2018-03-31 20:29:18] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Sr', sobrenome: 'João', email: 'srjoao@gmail.com', senha: 'root', cpf: '149.149.149-71', plano: '2')
+[2018-03-31 20:30:15] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Sr', sobrenome: 'João', email: 'srjoao@gmail.com', senha: 'root', cpf: '149.149.149-71', plano: '2')
+[2018-03-31 20:30:42] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Sr', sobrenome: 'João', email: 'srjoao@gmail.com', senha: 'root', cpf: '149.149.149-71', plano: '2')
+[2018-03-31 20:31:58] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Sr', sobrenome: 'João', email: 'srjoao@gmail.com', senha: 'root', cpf: '149.149.149-71', plano: '2')
+[2018-03-31 20:32:11] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Sr', sobrenome: 'João', email: 'srjoao@gmail.com', senha: 'root', cpf: '149.149.149-71', plano: '2')
+[2018-03-31 20:35:14] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Sr', sobrenome: 'João', email: 'srjoao@gmail.com', senha: 'root', cpf: '149.149.149-71', plano: '2')
+[2018-03-31 20:36:38] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Sr', sobrenome: 'João', email: 'srjoao@gmail.com', senha: 'root', cpf: '149.149.149-71', plano: '2')
+[2018-03-31 20:37:57] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Sr', sobrenome: 'João', email: 'srjoao@gmail.com', senha: 'root', cpf: '149.149.149-71', plano: '2')
+[2018-03-31 20:38:47] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Sr', sobrenome: 'João', email: 'srjoao@gmail.com', senha: 'root', cpf: '149.149.149-71', plano: '2')
+[2018-03-31 20:39:25] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Sr', sobrenome: 'João', email: 'srjoao@gmail.com', senha: 'root', cpf: '149.149.149-71', plano: '2')
+[2018-03-31 20:39:25] [INFO]: Dados inseridos no banco, em tabela genero_user(id_user_fk: '4', nome_genero_fk: 'Ação')
+[2018-03-31 20:39:25] [INFO]: Dados inseridos no banco, em tabela genero_user(id_user_fk: '4', nome_genero_fk: 'Aventura')
+[2018-03-31 20:39:25] [INFO]: Dados inseridos no banco, em tabela genero_user(id_user_fk: '4', nome_genero_fk: 'Comedia')
+[2018-03-31 20:40:58] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Sr', sobrenome: 'Francisco', email: 'srfrancisco@gmail.com', senha: 'root', cpf: '441.241.457-54', plano: '1')
+[2018-03-31 20:40:58] [INFO]: Dados inseridos no banco, em tabela genero_user(id_user_fk: '15', nome_genero_fk: 'Romance')
+[2018-03-31 20:40:58] [INFO]: Dados inseridos no banco, em tabela genero_user(id_user_fk: '15', nome_genero_fk: 'Terror')
+[2018-03-31 20:47:16] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Sr', sobrenome: 'Antonio', email: 'srantonio@gmail.com', senha: 'root', cpf: '141.491.749-41', plano: '1')
+[2018-03-31 20:47:16] [INFO]: Dados inseridos no banco, em tabela genero_user(id_user_fk: '16', nome_genero_fk: 'Ficção científica')
+[2018-04-09 16:49:12] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Amanda', sobrenome: 'Matos', email: 'amandamattos@gmail.com', senha: '123', cpf: '1-23', plano: '1')
+[2018-04-09 16:49:12] [INFO]: Dados inseridos no banco, em tabela genero_user(id_user_fk: '17', nome_genero_fk: 'Comedia')
+[2018-04-09 16:49:12] [INFO]: Dados inseridos no banco, em tabela genero_user(id_user_fk: '17', nome_genero_fk: 'Fantasia')
+[2018-04-09 16:49:25] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Amanda', sobrenome: 'Matos', email: 'amandamattos@gmail.com', senha: '123', cpf: '1-23', plano: '1')
+[2018-04-09 16:49:25] [INFO]: Dados inseridos no banco, em tabela genero_user(id_user_fk: '17', nome_genero_fk: 'Comedia')
+[2018-04-09 16:49:25] [INFO]: Dados inseridos no banco, em tabela genero_user(id_user_fk: '17', nome_genero_fk: 'Fantasia')
+[2018-04-09 16:50:25] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Amanda', sobrenome: 'Matos', email: 'amandamattos@gmail.com', senha: '123', cpf: '1-23', plano: '1')
+[2018-04-09 16:50:25] [INFO]: Dados inseridos no banco, em tabela genero_user(id_user_fk: '17', nome_genero_fk: 'Comedia')
+[2018-04-09 16:50:25] [INFO]: Dados inseridos no banco, em tabela genero_user(id_user_fk: '17', nome_genero_fk: 'Fantasia')
+[2018-04-09 16:56:09] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Amanda', sobrenome: 'Matos', email: 'amandamattos@gmail.com', senha: '123', cpf: '1-23', plano: '1')
+[2018-04-09 16:56:09] [INFO]: Dados inseridos no banco, em tabela genero_user(id_user_fk: '17', nome_genero_fk: 'Comedia')
+[2018-04-09 16:56:09] [INFO]: Dados inseridos no banco, em tabela genero_user(id_user_fk: '17', nome_genero_fk: 'Fantasia')
+[2018-04-09 17:07:54] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Gabriela', sobrenome: 'Mattos', email: 'gaby@gmail.com', senha: '1234', cpf: '123.456-78', plano: '3')
+[2018-04-09 17:07:54] [INFO]: Dados inseridos no banco, em tabela genero_user(id_user_fk: '21', nome_genero_fk: 'Comedia')
+[2018-04-09 17:07:54] [INFO]: Dados inseridos no banco, em tabela genero_user(id_user_fk: '21', nome_genero_fk: 'Romance')
+[2018-05-12 22:37:27] [INFO]: Erro ao fazer solicitacao do usuario '', solicitando: ''
+[2018-05-12 22:38:15] [INFO]: Erro ao fazer solicitacao do usuario '', solicitando: ''
+[2018-05-12 22:38:35] [INFO]: Erro ao fazer solicitacao do usuario '', solicitando: ''
+[2018-05-12 22:54:45] [INFO]: Erro ao fazer solicitacao do usuario '', solicitando: ''
+[2018-05-12 22:54:49] [INFO]: Erro ao fazer solicitacao do usuario '', solicitando: ''
+[2018-05-12 22:55:26] [INFO]: Erro ao fazer solicitacao do usuario '', solicitando: ''
+[2018-05-12 22:55:59] [INFO]: Erro ao fazer solicitacao do usuario '', solicitando: ''
+[2018-05-12 22:56:45] [INFO]: Feito nova solicitação de filme pelo o usuario 'Ellyo', ele diz: 'EU queria'
+[2018-05-13 02:07:03] [INFO]: Erro ao fazer solicitacao do usuario '', solicitando: 'Pantera negra'
+[2018-05-13 02:08:32] [INFO]: Erro ao fazer solicitacao do usuario '', solicitando: 'Pantera negra'
+[2018-05-13 02:09:21] [INFO]: Feito nova solicitação de filme pelo o usuario 'Ellyo', ele diz: 'Pantera Negra'
+[2018-05-13 02:10:03] [INFO]: Erro ao fazer solicitacao do usuario '', solicitando: 'A'
+[2018-05-13 02:14:35] [INFO]: Erro ao fazer solicitacao do usuario '', solicitando: 'A'
+[2018-05-13 02:17:58] [INFO]: Feito nova solicitação de filme pelo o usuario 'Ellyo', ele diz: 'Pantera Negra'
+[2018-05-14 22:12:07] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Luiza', sobrenome: 'Sampaio', email: 'luiza@gmail.com', senha: '123', cpf: '141.241.241-41', plano: '3')
+[2018-05-14 22:12:07] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '22', nome_genero_fk: 'Aventura')
+[2018-05-14 22:12:07] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '22', nome_genero_fk: 'Comedia')
+[2018-05-14 22:12:07] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '22', nome_genero_fk: 'Drama')
+[2018-05-14 22:12:07] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '22', nome_genero_fk: 'Ficção científica')
+[2018-05-14 22:12:07] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '22', nome_genero_fk: 'Mistério')
+[2018-05-14 22:12:07] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '22', nome_genero_fk: 'Romance')
+[2018-05-14 22:12:07] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '22', nome_genero_fk: 'Suspense')
+[2018-05-14 22:12:07] [ERROR]: Error ao inserir no banco, em tabela genero_user(id_user_fk: '22', nome_genero_fk: 'Terror')
+[2018-05-19 11:06:59] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Miqueias', sobrenome: 'Guimaraes', email: 'mickey@gmail.com', senha: '123', cpf: '123.123.124-22', plano: '2')
+[2018-05-19 11:53:05] [INFO]: Erro ao fazer solicitacao do usuario '', solicitando: 'As vantagens de ser invisivel'
+[2018-05-19 11:54:14] [INFO]: Erro ao fazer solicitacao do usuario '', solicitando: 'As vantagens'
+[2018-05-19 11:55:00] [INFO]: Feito nova solicitação de filme pelo o usuario '', ele diz: 'As vantagens de ser invisivel'
+[2018-05-19 11:55:48] [INFO]: Feito nova solicitação de filme pelo o usuario '', ele diz: 'As vantagens de ser invisivel'
+[2018-05-19 11:59:42] [INFO]: Feito nova solicitação de filme pelo o usuario '', ele diz: 'As vantagens de ser invisivel'
+[2018-05-19 12:00:06] [INFO]: Feito nova solicitação de filme pelo o usuario '', ele diz: 'a'
+[2018-05-19 12:01:29] [INFO]: Feito nova solicitação de filme pelo o usuario '', ele diz: 'a'
+[2018-05-19 12:02:24] [INFO]: Feito nova solicitação de filme pelo o usuario '', ele diz: 'a'
+[2018-05-19 12:05:48] [INFO]: Feito nova solicitação de filme pelo o usuario '', ele diz: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+[2018-06-07 23:56:19] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Joãozinho', sobrenome: 'Ferreira', email: 'joazinho@gmail.com', senha: '123', cpf: '141.515.151-51', plano: '1')
+[2018-06-08 00:01:49] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Maria', sobrenome: 'Silva', email: 'maria@gmail.com', senha: '123', cpf: '114.151.515-15', plano: '3')
+[2018-06-08 00:08:29] [INFO]: Feito nova solicitação de filme pelo o usuario '', ele diz: 'Quero café'
+[2018-06-08 07:45:40] [INFO]: Dados inseridos no banco, em tabela user(nome: 'Gilson', sobrenome: 'Gondim', email: 'gilson@gmail.com', senha: '123', cpf: '121.414.141-15', plano: '3')
+[2018-06-08 07:50:23] [INFO]: Feito nova solicitação de filme pelo o usuario '', ele diz: 'Quero assistir vingadores no sistema'
